@@ -51,5 +51,15 @@ writing {
   flex-wrap: nowrap;
   justify-content: center;
   justify-content: space-between;
-  
+
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
+
 }
