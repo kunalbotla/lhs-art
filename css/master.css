@@ -12,6 +12,20 @@ body {
   padding-left: 20%;
 }
 
+body-2 {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
+  color:black;
+
+  margin: 0;
+  position: absolute;
+  top: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
 heading {
   text-align: left;
   font-family: "Merriweather", "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
@@ -61,5 +75,15 @@ writing {
   justify-content: right;
   justify-content: space-between;
   align-items: center;
+
+}
+
+.flex-container-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-between;
+
 
 }
