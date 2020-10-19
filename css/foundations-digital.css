@@ -1,0 +1,79 @@
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
+  color:black;
+
+  margin: 100;
+  position: absolute;
+  top: 100%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+body-2 {
+
+}
+
+heading {
+  text-align: left;
+  font-family: "Merriweather", "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+
+writing {
+  text-align: center;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+.circle {
+  border-radius: 50%
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-between;
+
+}
+
+.flex-container-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.flex-container-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  justify-content: space-between;
+
+
+}
