@@ -3,7 +3,7 @@ body {
   color: black;
   margin: 100;
   position: absolute;
-  top: 200%;
+  top: 170%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   padding-right: 20%;
