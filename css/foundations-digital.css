@@ -1,46 +1,37 @@
 body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
-  color:black;
-
+  color: black;
   margin: 100;
   position: absolute;
-  top: 100%;
+  top: 200%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
   padding-right: 20%;
   padding-left: 20%;
 }
 
-body-2 {
-
-}
+body-2 {}
 
 heading {
   text-align: left;
   font-family: "Merriweather", "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
-
   margin: 0;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
   padding-right: 20%;
   padding-left: 20%;
 }
 
-
 writing {
   text-align: center;
   font-family: "Helvetica Neue", "Helvetica", "Arial", system, sans-serif;
-
   margin: 0;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-
   padding-right: 20%;
   padding-left: 20%;
 }
@@ -55,7 +46,6 @@ writing {
   flex-wrap: nowrap;
   justify-content: center;
   justify-content: space-between;
-
 }
 
 .flex-container-2 {
@@ -65,7 +55,22 @@ writing {
   justify-content: right;
   justify-content: space-between;
   align-items: center;
+}
 
+.project-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .flex-container-nav {
@@ -74,6 +79,37 @@ writing {
   flex-wrap: nowrap;
   justify-content: center;
   justify-content: space-between;
+}
 
+.parent-container {
+  /* We first create a flex layout context */
+  display: flex;
 
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.child-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 }
